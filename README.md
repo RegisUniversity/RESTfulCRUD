@@ -45,10 +45,9 @@ if($mysqli === false){
 ?>
 ```
 
-
-
-
 # Operating instructions
+- Now go to localhost and you should see the following
+<img src= >
 
 # A file manifest (list of files included)
 - config.php
