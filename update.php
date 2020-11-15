@@ -149,7 +149,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
                         </div>
                         <div class="form-group <?php echo (!empty($address_err)) ? 'has-error' : ''; ?>">
                             <label>Spirit</label>
-                            <textarea name="spirit" class="form-control"><?php echo $spirit; ?></textarea>
+                            <input type="text" name="spirit" class="form-control" value="<?php echo $spirit; ?>">
                             <span class="help-block"><?php echo $spirit_err;?></span>
                         </div>
                         <div class="form-group <?php echo (!empty($salary_err)) ? 'has-error' : ''; ?>">
