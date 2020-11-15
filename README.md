@@ -10,6 +10,11 @@ You will also need a webroot directory created which will be where the installat
 # Installation instructions
 In time, I plan to create a setup.php file which can be run to initiatie setup for this application. For now, to install this application, the following steps are necessary.
 
+## Create Application Directory
+- Create an application directory where you will next copy project files into (e.g., /var/www/project1)
+## Copy files to webroot directory
+In the application package there are seven files that need to be copied over to the application directory you created in earlier step.
+
 ## Database Installation
 - create MySQL Database
 - create table called "people"
@@ -46,8 +51,9 @@ if($mysqli === false){
 ```
 
 # Operating instructions
-- Now go to localhost and you should see the following
-<img src= >
+- Now go to localhost and you should see the following:
+
+<img src= https://github.com/RegisUniversity/RestfulCRUD/blob/master/Screenshot%20from%202020-11-14%2019-22-47.png>
 
 # A file manifest (list of files included)
 - config.php
