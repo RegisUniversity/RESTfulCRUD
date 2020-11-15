@@ -99,7 +99,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                         </div>
                         <div class="form-group <?php echo (!empty($spirit_err)) ? 'has-error' : ''; ?>">
                             <label>Spirit</label>
-                            <textarea name="spirit" class="form-control"><?php echo $spirit; ?></textarea>
+                            <input type="text" name="spirit" class="form-control" value="<?php echo $spirit; ?>">
                             <span class="help-block"><?php echo $spirit_err;?></span>
                         </div>
                         <div class="form-group <?php echo (!empty($beer_err)) ? 'has-error' : ''; ?>">
