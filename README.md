@@ -1,6 +1,6 @@
 # RestfulCRUD
-This is a simple database-driven web-application designed to capture aficionado's favorite adult beverages (i.e., spirits and beers). The architecture for this application is based on a LAMP stack (Linux, Apache2, MySQL, PHP) with RESTful services. The overarching design goal was to demonstrate simple CRUD functionality and RESTful services in a LAMP stack.  
-
+This is a simple database-driven web-application designed to capture aficionado's favorite adult beverages (i.e., spirits and beers). The architecture for this application is based on a LAMP stack (Linux, Apache2, MySQL, PHP) with RESTful services. The overarching design goal was to demonstrate simple CRUD functionality and RESTful services in a LAMP stack.  [^1]
+[^1]: hello
 # Configuration instructions
 ## Configure _AMP Stack
 This application can be easilty configured to your local or remote development environment on top of an already existing LAMP, WAMP, XAMP, or similarly appropriate _AMP stack. You will need to have a MySQL server installed with a user and sudo privileges. 
